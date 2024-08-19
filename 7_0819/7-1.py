@@ -1,6 +1,4 @@
-import random
-import pyinputplus as pyip
-while True:
+def play_game():
     min=1
     max=100
     count=0
@@ -17,6 +15,11 @@ while True:
             max=keyin-1
         elif keyin<ans:
             min=keyin+1
+
+import random
+import pyinputplus as pyip
+while True:
+    play_game()
     yesno=pyip.inputYesNo("您還要繼續猜數字嗎?(y or n)")
     if yesno=="no":
         break
