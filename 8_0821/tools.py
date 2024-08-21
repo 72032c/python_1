@@ -1,5 +1,4 @@
 def bmi(bmi:float)->str:
-    BMI=round(weight/(height*0.01)**2,ndigits=2)
     if BMI<18.5:
         grade="過輕"
     elif BMI<24:
@@ -12,4 +11,3 @@ def bmi(bmi:float)->str:
         grade="中度肥胖"
     elif BMI>=35:
         grade="重度肥胖"
-    print(f"{name}的BMI為{BMI}\n體重:{grade}")
