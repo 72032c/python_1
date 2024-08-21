@@ -2,21 +2,16 @@ from . import tools
 
 class MyClass:
     @classmethod
-    def get_status_message(cls,bmi: float) -> str:
-        '''
-        #param bmi:這是要傳入bmi傳
-        #return:傳出bmi的狀態
-        '''
-
-        if bmi < 18.5:
-            return "體重過輕"
-        elif bmi < 24:
-            return "正常範圍"
-        elif bmi < 27:
+    def get_bmi(cls,bmi: float) -> str:
+        if bmi<18.5:
+            return "過輕"
+        elif bmi<24:
+            return "正常"
+        elif bmi<27:
             return "過重"
-        elif bmi < 30:
+        elif bmi<30:
             return "輕度肥胖"
-        elif bmi < 35:
+        elif bmi<35:
             return "中度肥胖"
-        else:
+        elif bmi>=35:
             return "重度肥胖"
