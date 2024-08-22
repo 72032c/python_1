@@ -1,0 +1,23 @@
+#請自訂一個class叫BMI
+class BMI():
+    pass
+
+while True:
+    try:
+        name = input("請輸入姓名: ")
+        height = float(input('請輸入身高（cm）: '))
+        weight = float(input('請輸入體重（kg）: '))
+        #這裏建立一個BMI的實體
+
+
+
+    except ValueError:
+        print("格式錯誤，請重新輸入數據")
+        continue
+
+    stuff = input("請問是否繼續輸入資料 ('q': 離開, 任意鍵: 繼續)? ")
+
+    if stuff == 'q':
+        break
+
+print("應用程式結束")
