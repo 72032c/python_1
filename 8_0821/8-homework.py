@@ -14,9 +14,9 @@ class BMI():
         self.bmi = self.getBMI()
         
         if self.bmi < 18.5:
-            return "體重過輕"
+            return "過輕"
         elif self.bmi < 24:
-            return "正常範圍"
+            return "正常"
         elif self.bmi < 27:
             return "過重"
         elif self.bmi < 30:

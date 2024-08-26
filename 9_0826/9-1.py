@@ -1,4 +1,4 @@
-from widget import tools
+from widget.tools import bmi
 
 while True:
     try:
