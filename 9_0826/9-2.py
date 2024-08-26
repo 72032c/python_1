@@ -5,6 +5,7 @@ class BMI():
         self.weight = weight
 
     @property
+    #【@property】只可讀，不可修改
     def getName(self)->str:
         return self.name
     
