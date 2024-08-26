@@ -4,6 +4,7 @@ class BMI():
         self.height = height
         self.weight = weight
 
+    @property
     def getName(self)->str:
         return self.name
     
