@@ -1,4 +1,4 @@
-class bmi():
+class Myclass():
     @classmethod
     def get_status_message(cls,bmi: float) -> str:
 
