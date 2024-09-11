@@ -4,3 +4,5 @@ pydantic
 matplotlib
 numpy
 pandas
+openpyxl
+#pip install -r requirements.txt
