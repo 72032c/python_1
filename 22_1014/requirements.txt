@@ -1,4 +1,5 @@
 python-dotenv
 Flask
 gunicorn
+google-generativeai
 #pip install -r requirements.txt
