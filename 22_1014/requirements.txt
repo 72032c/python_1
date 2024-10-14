@@ -1,0 +1,4 @@
+python-dotenv
+Flask
+gunicorn
+#pip install -r requirements.txt
